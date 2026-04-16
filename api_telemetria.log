@@ -1,0 +1,3 @@
+2026-04-16 22:06:52,275 - INFO - Endpoint /produtos acessado. Latência: 100.96ms
+2026-04-16 22:10:15,560 - INFO - Endpoint /produtos acessado. Latência: 600.10ms
+2026-04-16 22:12:05,650 - INFO - Endpoint /produtos acessado. Latência: 700.11ms
