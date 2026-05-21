@@ -1,0 +1,16 @@
+                   
+                   
+┌─────────────────┐
+│ 3 Code Findings │
+└─────────────────┘
+                            
+  [36m[22m[24m  client.py[0m
+    ❯❱ [1msemgrep.detect-print-instead-of-logger[0m
+          [31m[1m[24m❰❰ Blocking ❱❱[0m
+          Evite o uso de 'print()' para logs em produção. Utilize a biblioteca de logging apropriada.
+                                                                                                     
+           10┆ print("GET", req.status_code)
+            ⋮┆----------------------------------------
+           16┆ print("POST", req.status_code)
+            ⋮┆----------------------------------------
+           30┆ print("Fim!")

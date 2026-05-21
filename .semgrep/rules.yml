@@ -1,0 +1,6 @@
+rules:
+  - id: detect-print-instead-of-logger
+    pattern: print(...)
+    message: "Evite o uso de 'print()' para logs em produção. Utilize a biblioteca de logging apropriada."
+    languages: [python]
+    severity: WARNING
